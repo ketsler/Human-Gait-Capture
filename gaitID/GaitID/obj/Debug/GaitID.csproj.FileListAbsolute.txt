@@ -1,0 +1,69 @@
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\bin\Debug\GaitID.exe.config
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\Interop.MLApp.dll
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.csproj.ResolveComReference.cache
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\bin\Debug\GaitID.exe
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\bin\Debug\GaitID.pdb
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\bin\Debug\Microsoft.Kinect.dll
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\bin\Debug\MySql.Data.dll
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\bin\Debug\TASS.exe
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\bin\Debug\TASS.pdb
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\bin\Debug\Microsoft.Kinect.xml
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.csprojResolveAssemblyReference.cache
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\Capture.g.cs
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\comparison.g.cs
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\FeatureID.g.cs
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\identification.g.cs
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\MainWindow.g.cs
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\Training.g.cs
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\App.g.cs
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID_MarkupCompile.cache
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID_MarkupCompile.lref
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\Capture.baml
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\comparison.baml
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\FeatureID.baml
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\identification.baml
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\MainWindow.baml
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\Training.baml
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.g.resources
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.Properties.Resources.resources
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.csproj.GenerateResource.Cache
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.exe
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.pdb
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\GaitID.exe.config
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\GaitID.exe.manifest
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\GaitID.application
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\GaitID.exe
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\GaitID.pdb
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\Microsoft.Kinect.dll
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\MySql.Data.dll
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\TASS.exe
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\TASS.pdb
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\bin\Debug\Microsoft.Kinect.xml
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.csprojResolveAssemblyReference.cache
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\Interop.MLApp.dll
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.csproj.ResolveComReference.cache
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\Capture.g.cs
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\comparison.g.cs
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\FeatureID.g.cs
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\identification.g.cs
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\MainWindow.g.cs
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\Training.g.cs
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\App.g.cs
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID_MarkupCompile.cache
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID_MarkupCompile.lref
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\Capture.baml
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\comparison.baml
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\FeatureID.baml
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\identification.baml
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\MainWindow.baml
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\Training.baml
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.g.resources
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.Properties.Resources.resources
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.csproj.GenerateResource.Cache
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.TrustInfo.xml
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.exe.manifest
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.application
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.exe
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\GaitID.pdb
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\TestBench.g.cs
+C:\Users\Kyle\Desktop\GAIT\Andy-David-Collection\gaitID\GaitID\obj\Debug\TestBench.baml

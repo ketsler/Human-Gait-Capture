@@ -1,0 +1,83 @@
+﻿<Window x:Class="GaitID.Capture"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GaitID"
+        mc:Ignorable="d"
+        Title="Data Capture" Height="700" Width="1000" WindowStartupLocation="CenterScreen" ResizeMode="NoResize"
+        Loaded="Capture_OnLoaded"
+        Closing="Capture_OnClosing">
+
+    <Grid Background="#FF232323">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="captureNavButton" Content="Data Capture" HorizontalAlignment="Left" Height="100" Width="190" VerticalAlignment="Top" 
+                Grid.Row="0" Background="#FFCFB87C" FontSize="24" FontWeight="Bold" Margin="5,0,0,0"/>
+
+        <Button x:Name="featureNavButton" Content="Feature ID" HorizontalAlignment="Left" Height="100" Width="190" VerticalAlignment="Top" 
+        	Grid.Row="0" Background="#FFCFB87C" FontSize="24" FontWeight="Bold" Margin="201,0,0,0" Click="FeatureNavButton_OnClick"/>
+
+        <Button x:Name="multivariateNavButton" Content="Multivariate ID" HorizontalAlignment="Left" Height="100" Width="190" VerticalAlignment="Top" 
+        	Grid.Row="0" Background="#FFCFB87C" FontSize="24" FontWeight="Bold" Margin="396,0,0,0"/>
+
+        <Button x:Name="patternNavButton" Content="Pattern ID" HorizontalAlignment="Left" Height="100" Width="190" VerticalAlignment="Top" 
+        	Grid.Row="0" Background="#FFCFB87C" FontSize="24" FontWeight="Bold" Margin="592,0,0,0"/>
+
+        <Button x:Name="testBenchNavButton" Content="Test Bench" HorizontalAlignment="Left" Height="100" Width="190" VerticalAlignment="Top" 
+        	Grid.Row="0" Background="#FFCFB87C" FontSize="24" FontWeight="Bold" Margin="788,0,0,0" Click="TestBenchButton_OnClick"/>
+
+
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="400" Margin="46,20,0,0" Stroke="Black" VerticalAlignment="Top" Width="483" Grid.Row="1"/>
+
+        <Viewbox x:Name="skeletonImage" HorizontalAlignment="Left" Height="422" Margin="46,20,0,0" VerticalAlignment="Top" Width="483" Grid.Row="1" >
+            <Image Source="{Binding ImageSource}" Stretch="UniformToFill" />
+        </Viewbox>
+
+        <Button x:Name="RecordButton" Content="Record" FontSize="16" HorizontalAlignment="Left" Margin="128,454,0,0" VerticalAlignment="Top" Width="135" Height="30" 
+        	Background="#FF555457" Foreground="White" Grid.Row="1" Click="RecordButton_Click"/>
+        <Button x:Name="StopButton" Content="Stop" FontSize="16" HorizontalAlignment="Left" Margin="310,454,0,0" VerticalAlignment="Top" Width="135" Height="30" 
+        	Background="#FF555457" Foreground="White" Grid.Row="1" Click="StopButton_Click"/>
+
+        <Label x:Name="recordingLabel" Content="Recording" HorizontalAlignment="Left" Margin="240,505,0,0" VerticalAlignment="Top" Height="36" Width="95"
+               Visibility="Hidden" FontSize="18.667" Foreground="#FF9D0000" Grid.Row="1"/>
+
+        <Image x:Name="FrameDisplayImage" HorizontalAlignment="Left" Height="235" Margin="573,65,0,0" Grid.Row="1" VerticalAlignment="Top" Width="382"
+               Stretch="UniformToFill" Source="{Binding ColorImageSource}"/>
+        <Label x:Name="LiveFeedLabel" Content="Live Feed" HorizontalAlignment="Left" Margin="709,23,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="24"/>
+
+        <StatusBar Grid.Row="2" HorizontalAlignment="Stretch" Name="statusBar" VerticalAlignment="Bottom" Background="#FF232323" Foreground="White">
+            <StatusBarItem Content="{Binding StatusText}" />
+        </StatusBar>
+        <Label x:Name="AgeEntryLabel" Content="Age" HorizontalAlignment="Left" Margin="574,325,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="24" Visibility="Hidden"/>
+        <TextBox x:Name="AgeEntryBox" HorizontalAlignment="Left" Height="35" Margin="638,331,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="115" FontSize="24" Visibility="Hidden" />
+        <Label x:Name="GenderSelectLabel" Content="Gender" HorizontalAlignment="Left" Margin="773,325,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="24" Visibility="Hidden"/>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Height="75" Margin="871,320,-39,0" VerticalAlignment="Top" Width="162" Grid.Row="1" Visibility="Hidden">
+            <RadioButton x:Name="trainingSelector" GroupName="Gender" Content="Male" HorizontalAlignment="Left" Margin="10,10,10,0" Padding="0,-9,0,0" 
+                         FontSize="20" VerticalAlignment="Top" Foreground="White"/>
+            <RadioButton x:Name="identifySelector" GroupName="Gender" Content="Female" HorizontalAlignment="Left" Margin="10,10,10,10" Padding="0,-9,0,0" 
+                         FontSize="20" VerticalAlignment="Top" Foreground="White"/>
+        </StackPanel>
+
+        <Label x:Name="NameEntryLabel" Content="Name" HorizontalAlignment="Left" Margin="573,388,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="24" RenderTransformOrigin="0.563,1.546"/>
+        <TextBox x:Name="NameEntryBox" HorizontalAlignment="Left" Height="30" Margin="653,400,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="302" FontSize="24" />
+
+        <Button x:Name="BrowseButton" Content="Browse" FontSize="16" HorizontalAlignment="Left" Margin="556,454,0,0" VerticalAlignment="Top" Width="85" Height="30" 
+        	Background="#FF555457" Foreground="White" Grid.Row="1" Visibility="Visible" Click="BrowseButton_OnClick"/>
+        <TextBox x:Name="FileSaveLocationTextBox" HorizontalAlignment="Left" Height="30" Margin="653,454,0,0" Grid.Row="1" TextWrapping="NoWrap" 
+                 VerticalAlignment="Top" Width="311" FontSize="14" Padding="4" Visibility="Visible" IsReadOnly="True"/>
+        <Button x:Name="StoreButton" Content="Store" FontSize="16" HorizontalAlignment="Left" Margin="617,505,0,0" VerticalAlignment="Top" Width="135" Height="30" 
+        	Background="#FF555457" Foreground="White" Grid.Row="1" Click="StoreButton_OnClick"/>
+        <Button x:Name="IdentifyButton" Content="Identify" FontSize="16" HorizontalAlignment="Left" Margin="775,505,0,0" VerticalAlignment="Top" Width="135" Height="30" 
+        	Background="#FF555457" Foreground="White" Grid.Row="1" Click="IdentifyButton_OnClick" />
+        <TextBox x:Name="IDEntryBox" HorizontalAlignment="Left" Height="30" Margin="734,346,0,0" Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="221" FontSize="24" />
+        <Label x:Name="IDEntryLabel" Content="Current person" HorizontalAlignment="Left" Margin="560,341,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="White" FontSize="24" RenderTransformOrigin="0.563,1.546"/>
+
+
+    </Grid>
+</Window>

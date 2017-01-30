@@ -1,0 +1,47 @@
+﻿<Window x:Class="GaitID.comparison"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GaitID"
+        mc:Ignorable="d"
+        Title="Match Comparison" Height="720" Width="1080" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="422" Margin="34,66,0,0" Stroke="Black" VerticalAlignment="Top" Width="483"/>
+        <Image x:Name="videoImage" HorizontalAlignment="Left" Height="410" Margin="34,72,0,0" VerticalAlignment="Top" Width="483" Source="Resources/ManWalkingUpstairs.png" Stretch="Fill"/>
+        <Label x:Name="videoLabel" Content="Captured Image" HorizontalAlignment="Left" Margin="34,489,0,0" VerticalAlignment="Top" Height="36" Width="141" FontSize="18.667"/>
+
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="422" Margin="552,66,0,0" Stroke="Black" VerticalAlignment="Top" Width="483"/>
+        <Image x:Name="skeletonImage" HorizontalAlignment="Left" Height="422" Margin="552,66,0,0" VerticalAlignment="Top" Width="483" Source="Resources/ManWalkingUpstairs.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Opacity="0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleY="1" ScaleX="-1"/>
+                    <SkewTransform AngleY="0" AngleX="0"/>
+                    <RotateTransform Angle="0"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label x:Name="skeletonLabel" Content="Matched Image" HorizontalAlignment="Left" Margin="895,489,0,0" VerticalAlignment="Top" Height="46" Width="140" FontSize="18.667"/>
+
+        <Button x:Name="helpButton" HorizontalAlignment="Left" Height="35" Margin="1019,6,0,0" VerticalAlignment="Top" Width="35" BorderBrush="{x:Null}" Background="{x:Null}" >
+            <Image Source="Resources/help_icon.png" />
+        </Button>
+        <Button x:Name="settingsImage" HorizontalAlignment="Left" Height="35" Margin="974,7,0,0" VerticalAlignment="Top" Width="35" BorderBrush="{x:Null}" Background="{x:Null}">
+            <Image Source="Resources/gear_icon.png" />
+        </Button>
+        <Label x:Name="settingsLabel" Content="Settings" FontSize="10.667" HorizontalAlignment="Left" Margin="965,35,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF636363"/>
+        <Label x:Name="helpLabel" Content="Help" FontSize="10.667" HorizontalAlignment="Left" Margin="1019,35,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="#FF636363"/>
+
+        <Button x:Name="backButton" Content="&lt; Back" FontSize="16" HorizontalAlignment="Left" Margin="34,636,0,0" VerticalAlignment="Top" Width="66" Height="30" 
+                Background="#FF8E5ED4" Foreground="White" Click="backButton_Click"/>
+        <Button x:Name="trainingButton" Content="Training &gt;" FontSize="16" HorizontalAlignment="Left" Margin="945,636,0,0" VerticalAlignment="Top" Width="90" Height="30" 
+                Background="#FF8E5ED4" Foreground="White" Click="trainingButton_Click" />
+
+        <Button x:Name="recordButton" HorizontalAlignment="Left" Margin="425,504,0,0" VerticalAlignment="Top" Width="60" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button x:Name="stopButton" HorizontalAlignment="Left" Margin="503,504,0,0" VerticalAlignment="Top" Width="60" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Button x:Name="playButton" HorizontalAlignment="Left" Margin="580,504,0,0" VerticalAlignment="Top" Width="60" BorderBrush="{x:Null}" Background="{x:Null}"/>
+        <Label x:Name="idLabel" Content="Match certainty:" HorizontalAlignment="Left" Margin="434,593,0,0" VerticalAlignment="Top" Height="36" Width="201" FontSize="18.667" Background="#FFAF87E8" Foreground="White"/>
+        <Label x:Name="idLabel_Copy" Content="Subject Name" HorizontalAlignment="Left" Margin="459,537,0,0" VerticalAlignment="Top" Height="40" Width="151" FontSize="21.333" Background="#FF555457" Foreground="White" FontWeight="Bold"/>
+    </Grid>
+</Window>

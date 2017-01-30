@@ -1,0 +1,8 @@
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\TASS\TASS\bin\Debug\TASS.exe.config
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\TASS\TASS\bin\Debug\TASS.exe
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\TASS\TASS\bin\Debug\TASS.pdb
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\TASS\TASS\obj\Debug\TASS.csprojResolveAssemblyReference.cache
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\TASS\TASS\obj\Debug\Interop.MLApp.dll
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\TASS\TASS\obj\Debug\TASS.csproj.ResolveComReference.cache
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\TASS\TASS\obj\Debug\TASS.exe
+D:\Masters RnD\Senior Design\Andy-David-Collection\gaitID\TASS\TASS\obj\Debug\TASS.pdb

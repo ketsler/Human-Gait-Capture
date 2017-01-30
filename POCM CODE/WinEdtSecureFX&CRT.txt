@@ -1,0 +1,22 @@
+WinEdt:
+            Name: Mohammad Kolahdouzan
+            Code: 3138794772106866440
+
+Acrobat5.0 : KWW500E7192964-575
+
+
+SecureCRT 3.x License Data:                                  Checksum
+   Name:           Mohammad Kolahdouzan                       [2A43]
+   Company:        USC                                        [5913]
+   Serial Number:  03-33-048062                               [A9AD]
+   License Key:    033B 08E6 68D8 FF6B 05D0 FB52 1AC2 A627    [4313]
+   Issue Date:     03-09-2001                                 [CEEA]
+
+Here is your license data (SecureFX):                        Checksum
+   Name:           Mohammad Kolahdouzan                       [2A43]
+   Company:        USC                                        [5913]
+   Serial Number:  06-19-008157                               [F764]
+   License Key:    2842 E8C8 5E33 E6BE 8274 EA03 6DFF F433    [3ECF]
+   Issue Date:     03-09-2001                                 [CEEA]
+
+
